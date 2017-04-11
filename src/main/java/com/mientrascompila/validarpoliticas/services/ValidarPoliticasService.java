@@ -25,7 +25,7 @@ public class ValidarPoliticasService {
         try{
 
             Thread.sleep(10000);
-            valiacionRespuesta = validacion + rnd.nextInt();
+            valiacionRespuesta = validacion + rnd.nextInt() + "--"+idEmpleado;
 
         }catch (Exception e){}
 
